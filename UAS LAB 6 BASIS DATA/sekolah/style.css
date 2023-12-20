@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    color: white;
+}
+
+
+.navbar ul li:hover{
+    background-color: goldenrod;
+    transition-duration: 500ms;
+    border-style: hidden;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(2, 36, 22);
+}
+
+
+.isi{
+    margin: 30px;
+    display: block;
+    overflow: visible;
+    opacity: 100%;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.75);
+}
+
+#comment {
+    padding-top: 5%;
+    padding-left: 50%;
+    padding-bottom: 5%;
+    padding-right: 5%;  
+    display: block;
+    overflow: visible;
+    opacity: 100%;
+}
+
+ul li{
+    text-decoration: none;
+}
+
+footer {
+    margin: 0px;
+    background: rgb(108, 160, 234);
+    color: #fbfbfb;
+    padding: 20px;
+    text-align: center;
+  }
